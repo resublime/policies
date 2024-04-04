@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
-gem "middleman"
+gem "middleman", ">= 4.3.4"
 gem "middleman-blog"
 gem "builder"
 gem "redcarpet"
-gem "middleman-syntax"
+gem "middleman-syntax", ">= 3.2.0"
 gem "middleman-search_engine_sitemap"
-gem "nokogiri"
+gem "nokogiri", ">= 1.15.6"
